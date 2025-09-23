@@ -12,10 +12,6 @@ class GhActionDemoApplicationTests {
     @InjectMocks
     private GithubActionService githubActionService;
 
-	@Test
-	void contextLoads() {
-	}
-
     @Test
      void sayHello2Test(){
         String s = githubActionService.sayHello();
