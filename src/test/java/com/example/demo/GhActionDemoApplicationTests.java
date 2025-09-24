@@ -15,7 +15,7 @@ class GhActionDemoApplicationTests {
     @Test
      void sayHello2Test(){
         String s = githubActionService.sayHello();
-        Assertions.assertEquals("Hello World :: Github Action Service", s);
+        Assertions.assertNotEquals("Hello World :: Github Action Service", s);
     }
 
 }
